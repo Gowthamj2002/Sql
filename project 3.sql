@@ -120,11 +120,11 @@ SELECT * FROM Product  WHERE id NOT BETWEEN 2 AND 5 ;
 SELECT * FROM Product  WHERE id NOT BETWEEN 3 AND 5;
 SELECT * FROM Product  WHERE id NOT BETWEEN 4 AND 9;
 
-SELECT * FROM employee  WHERE emp_name like 's%';
-SELECT * FROM employee  WHERE emp_name like 'r%';
-SELECT * FROM employee  WHERE emp_name like '%a';
-SELECT * FROM employee  WHERE emp_name like 's%m%a';
-SELECT * FROM employee  WHERE emp_name like '%h';
+SELECT * FROM Employee  WHERE emp_name like 's%';
+SELECT * FROM Employee  WHERE emp_name like 'r%';
+SELECT * FROM Employee  WHERE emp_name like '%a';
+SELECT * FROM Employee  WHERE emp_name like 's%m%a';
+SELECT * FROM Employee  WHERE emp_name like '%h';
 
 SELECT * FROM Product  WHERE rating like '3';
 SELECT * FROM Product  WHERE rating like '5';
